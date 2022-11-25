@@ -1,0 +1,60 @@
+*{
+    font-size: 0.93em;
+}
+.link{
+    color: #5bc6f5;
+}
+u{
+    color: #5bc6f5;
+}
+.first{
+  background-color: #034a6a;
+  color: #5bc6f5;
+  line-height: 1;
+}
+.second{
+    line-height: 1;
+    border: 2px solid #034a6a;
+    border-width: 10px;
+    border-left: none;
+    
+}
+.second h6 {
+     color: #5bc6f5;
+}
+nav p {
+     color: #5bc6f5;
+}
+p b{
+     color: #5bc6f5;
+}
+input {
+    height: 0.5em;
+    width: 9em;
+    border-radius: 30px;
+    border: none;
+}
+p .a{
+    background: linear-gradient(to right, #5bc6f5 98%, #fff 0%);
+}
+p .b{
+    background: linear-gradient(to right, #5bc6f5 80%, #fff 0%);
+}
+p .c{
+    background: linear-gradient(to right, #5bc6f5 70%, #fff 0%);
+}
+.light{
+    background: lightgray;
+}
+
+.second h4::after {
+    content: '';
+    width: 60px;
+    height: 4px;
+    background: grey;
+    border-radius: 3px;
+    position: absolute;
+    top: 40px;
+    left: 48%;
+    transform: translateX(-50%)
+}
